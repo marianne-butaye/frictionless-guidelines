@@ -4,13 +4,23 @@ This project accepts contributions. In order to contribute, you should
 pay attention to a few things:
 
 1. your code must follow the coding style rules
-2. your code must be unit-tested
-3. your code must be documented
-4. your work must be signed (see below)
+2. your code must be unit-tested (80% code coverage)
+3. your code must have non-regression test (100% pass)
+4. your code must be documented
+5. your work must be signed ([see](https://git-scm.com/book/en/v2/Git-Tools-Signing-Your-Work))
 
 # Coding and documentation Style
 
 Refer to [pep8](https://www.python.org/dev/peps/pep-0008/)
+
+## PEP8 exceptions
+
+* max-line-length : we prefer a length of 120 chars
+
+```
+# Maximum number of characters on a single line.
+max-line-length=120
+```
 
 # Submitting Modifications
 
