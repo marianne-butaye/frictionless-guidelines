@@ -13,6 +13,8 @@ pay attention to a few things:
 
 Refer to [pep8](https://www.python.org/dev/peps/pep-0008/)
 
+If you use pylint, you can use [our custom pylintrc](./resources/.pyltinrc)
+
 ## PEP8 exceptions
 
 * max-line-length : we prefer a length of 120 chars
